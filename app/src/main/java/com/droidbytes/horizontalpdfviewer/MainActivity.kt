@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity(), OnPageChangeListener, OnLoadCompleteLi
             .enableAnnotationRendering(true)
             .onLoad(this)
             .load()
-
     }
 
     override fun onPageChanged(page: Int, pageCount: Int) {
